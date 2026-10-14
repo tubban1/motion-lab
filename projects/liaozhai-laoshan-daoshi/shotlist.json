@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "slug": "liaozhai-laoshan-daoshi",
+  "title": "聊斋志异·劳山道士",
+  "fps": 24,
+  "duration_seconds": 60,
+  "total_frames": 1440,
+  "bpm_reference": 72,
+  "bpm_verified_for_music": false,
+  "shots": [
+    {
+      "id": "shot-01",
+      "role": "hook",
+      "start_frame": 0,
+      "end_frame": 168,
+      "source_kind": "full_3d_motion",
+      "status": "planned",
+      "intent": "晨雾山门，王生负笈入观",
+      "camera": "远景航拍式下降",
+      "blocking": "王生入山拜师",
+      "lighting": "暗青夜色、朱红织物与暖金烛火，强调真实空间纵深",
+      "audio": "原创古风氛围配乐、旁白、拟音",
+      "visual_evidence": "晨雾山门，王生负笈入观",
+      "claim_status": "dramatization",
+      "motion_required": true,
+      "asset_ids": [
+        "owner-procedural-3d",
+        "original-score",
+        "system-tts"
+      ]
+    },
+    {
+      "id": "shot-02",
+      "role": "ordeal",
+      "start_frame": 168,
+      "end_frame": 336,
+      "source_kind": "full_3d_motion",
+      "status": "planned",
+      "intent": "手足生茧，不堪劳苦",
+      "camera": "逆光低机位跟拍",
+      "blocking": "一月采樵",
+      "lighting": "暗青夜色、朱红织物与暖金烛火，强调真实空间纵深",
+      "audio": "原创古风氛围配乐、旁白、拟音",
+      "visual_evidence": "手足生茧，不堪劳苦",
+      "claim_status": "dramatization",
+      "motion_required": true,
+      "asset_ids": [
+        "owner-procedural-3d",
+        "original-score",
+        "system-tts"
+      ]
+    },
+    {
+      "id": "shot-03",
+      "role": "reveal",
+      "start_frame": 336,
+      "end_frame": 576,
+      "source_kind": "full_3d_motion",
+      "status": "planned",
+      "intent": "道人剪纸如镜，月华照室",
+      "camera": "轴线居中推镜",
+      "blocking": "纸月奇术",
+      "lighting": "暗青夜色、朱红织物与暖金烛火，强调真实空间纵深",
+      "audio": "原创古风氛围配乐、旁白、拟音",
+      "visual_evidence": "道人剪纸如镜，月华照室",
+      "claim_status": "dramatization",
+      "motion_required": true,
+      "asset_ids": [
+        "owner-procedural-3d",
+        "original-score",
+        "system-tts"
+      ]
+    },
+    {
+      "id": "shot-04",
+      "role": "wonder",
+      "start_frame": 576,
+      "end_frame": 744,
+      "source_kind": "full_3d_motion",
+      "status": "planned",
+      "intent": "筷子掷入纸月，女子自月光中起舞",
+      "camera": "长焦层次移镜",
+      "blocking": "嫦娥幻舞",
+      "lighting": "暗青夜色、朱红织物与暖金烛火，强调真实空间纵深",
+      "audio": "原创古风氛围配乐、旁白、拟音",
+      "visual_evidence": "筷子掷入纸月，女子自月光中起舞",
+      "claim_status": "dramatization",
+      "motion_required": true,
+      "asset_ids": [
+        "owner-procedural-3d",
+        "original-score",
+        "system-tts"
+      ]
+    },
+    {
+      "id": "shot-05",
+      "role": "request",
+      "start_frame": 744,
+      "end_frame": 936,
+      "source_kind": "full_3d_motion",
+      "status": "planned",
+      "intent": "王生请求一技，不愿苦修",
+      "camera": "师徒反打与幽深留白",
+      "blocking": "只求穿墙",
+      "lighting": "暗青夜色、朱红织物与暖金烛火，强调真实空间纵深",
+      "audio": "原创古风氛围配乐、旁白、拟音",
+      "visual_evidence": "王生请求一技，不愿苦修",
+      "claim_status": "dramatization",
+      "motion_required": true,
+      "asset_ids": [
+        "owner-procedural-3d",
+        "original-score",
+        "system-tts"
+      ]
+    },
+    {
+      "id": "shot-06",
+      "role": "proof",
+      "start_frame": 936,
+      "end_frame": 1080,
+      "source_kind": "full_3d_motion",
+      "status": "planned",
+      "intent": "道士传诀，王生俯首穿墙",
+      "camera": "摄影机侧移见证",
+      "blocking": "过墙应验",
+      "lighting": "暗青夜色、朱红织物与暖金烛火，强调真实空间纵深",
+      "audio": "原创古风氛围配乐、旁白、拟音",
+      "visual_evidence": "道士传诀，王生俯首穿墙",
+      "claim_status": "dramatization",
+      "motion_required": true,
+      "asset_ids": [
+        "owner-procedural-3d",
+        "original-score",
+        "system-tts"
+      ]
+    },
+    {
+      "id": "shot-07",
+      "role": "hubris",
+      "start_frame": 1080,
+      "end_frame": 1272,
+      "source_kind": "full_3d_motion",
+      "status": "planned",
+      "intent": "王生回家向妻夸口",
+      "camera": "院中静镜渐进",
+      "blocking": "归家夸术",
+      "lighting": "暗青夜色、朱红织物与暖金烛火，强调真实空间纵深",
+      "audio": "原创古风氛围配乐、旁白、拟音",
+      "visual_evidence": "王生回家向妻夸口",
+      "claim_status": "dramatization",
+      "motion_required": true,
+      "asset_ids": [
+        "owner-procedural-3d",
+        "original-score",
+        "system-tts"
+      ]
+    },
+    {
+      "id": "shot-08",
+      "role": "irony",
+      "start_frame": 1272,
+      "end_frame": 1440,
+      "source_kind": "full_3d_motion",
+      "status": "planned",
+      "intent": "额头撞出肿包，妻子讥笑",
+      "camera": "侧拍碰撞、凝视空墙",
+      "blocking": "一头碰壁",
+      "lighting": "暗青夜色、朱红织物与暖金烛火，强调真实空间纵深",
+      "audio": "原创古风氛围配乐、旁白、拟音",
+      "visual_evidence": "额头撞出肿包，妻子讥笑",
+      "claim_status": "dramatization",
+      "motion_required": true,
+      "asset_ids": [
+        "owner-procedural-3d",
+        "original-score",
+        "system-tts"
+      ]
+    }
+  ]
+}

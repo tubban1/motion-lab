@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "slug": "vibe-monitor-directors-launch",
+  "title": "架构的第二双眼睛",
+  "fps": 24,
+  "duration_seconds": 64,
+  "total_frames": 1536,
+  "bpm_reference": 120,
+  "bpm_verified_for_music": true,
+  "shots": [
+    {
+      "id": "shot-01",
+      "role": "hook",
+      "start_frame": 0,
+      "end_frame": 144,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "代码极速增长",
+      "camera": "35mm跟拍代码瀑布与景深",
+      "blocking": "代码和功能模块快速建立",
+      "lighting": "电脑冷光",
+      "audio": "低频鼓点初入",
+      "visual_evidence": "代码行与模块独立运动",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    },
+    {
+      "id": "shot-02",
+      "role": "conflict",
+      "start_frame": 144,
+      "end_frame": 312,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "依赖缠绕爆发",
+      "camera": "50mm后退揭示模块复杂度",
+      "blocking": "交叉耦合线越来越红",
+      "lighting": "警告闪烁",
+      "audio": "报错拟音与鼓点加速",
+      "visual_evidence": "逐帧网络边呈现风险",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    },
+    {
+      "id": "shot-03",
+      "role": "suspense",
+      "start_frame": 312,
+      "end_frame": 480,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "修改恐惧",
+      "camera": "85mm近摄终端编辑器",
+      "blocking": "光标停在改动点",
+      "lighting": "红色边缘光",
+      "audio": "音乐收声与心跳",
+      "visual_evidence": "终端diff和冻结光标",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    },
+    {
+      "id": "shot-04",
+      "role": "reveal",
+      "start_frame": 480,
+      "end_frame": 648,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "产品登场",
+      "camera": "中心穿透变焦",
+      "blocking": "粒子聚合品牌V",
+      "lighting": "青色边光",
+      "audio": "第一主旋律强击",
+      "visual_evidence": "动态logo与示意场景",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    },
+    {
+      "id": "shot-05",
+      "role": "proof",
+      "start_frame": 648,
+      "end_frame": 840,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "架构演化与风险判断",
+      "camera": "从35mm俯视网络到节点近摄",
+      "blocking": "风险节点依序分离、建议亮起",
+      "lighting": "蓝青主体琥珀风险",
+      "audio": "节点tick拟音",
+      "visual_evidence": "结构耦合与建议关联示意",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    },
+    {
+      "id": "shot-06",
+      "role": "privacy",
+      "start_frame": 840,
+      "end_frame": 1008,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "本地与遥测边界",
+      "camera": "对称50mm微推",
+      "blocking": "代码留在本地，去标识化结构指标上传",
+      "lighting": "洁净白青",
+      "audio": "细微锁定音效",
+      "visual_evidence": "明确私测需遥测，无源代码上传",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    },
+    {
+      "id": "shot-07",
+      "role": "efficiency",
+      "start_frame": 1008,
+      "end_frame": 1176,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "低模型Token开销",
+      "camera": "工业流水线微距",
+      "blocking": "轻量规则检查、不断开创作",
+      "lighting": "冷光绿蓝",
+      "audio": "引擎哒音",
+      "visual_evidence": "无需每次额外LLM扫描但MCP上下文不等于零",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    },
+    {
+      "id": "shot-08",
+      "role": "installation",
+      "start_frame": 1176,
+      "end_frame": 1344,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "一行安装免费内测",
+      "camera": "终端快速推入",
+      "blocking": "命令输入、支持agent图标亮起",
+      "lighting": "明亮青与金",
+      "audio": "键盘按键与确认声",
+      "visual_evidence": "实际安装命令，邀请码申请",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    },
+    {
+      "id": "shot-09",
+      "role": "finale",
+      "start_frame": 1344,
+      "end_frame": 1536,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "开源路线与长期守护",
+      "camera": "广角网络扩张落品牌",
+      "blocking": "生态节点扩展为清晰架构",
+      "lighting": "电影暗蓝转明亮",
+      "audio": "终止鼓点余韵",
+      "visual_evidence": "开源与更多环境属未来计划",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "original-score",
+        "original-voice",
+        "original-foley"
+      ]
+    }
+  ]
+}

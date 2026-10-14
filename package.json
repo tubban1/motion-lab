@@ -1,0 +1,32 @@
+{
+  "name": "motion-lab",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts MentorPaperReview renders/mentor-paper-review-2026-10.mp4 --codec h264 --crf 19 --concurrency 2",
+    "still": "remotion still src/index.ts MentorPaperReview renders/poster.png --frame 120",
+    "compositions": "remotion compositions src/index.ts",
+    "render:fast": "node scripts/render-fast.cjs",
+    "render:owl-vs-workbuddy": "remotion render src/index.ts OwlVsWorkBuddy renders/owl-vs-workbuddy-2026-10.mp4 --codec h264 --crf 20 --concurrency 3",
+    "poster:owl-vs-workbuddy": "remotion still src/index.ts OwlVsWorkBuddy renders/owl-vs-workbuddy-poster.png --frame 844",
+    "tts": "python3 scripts/voiceover.py",
+    "tts:list": "python3 scripts/voiceover.py --list",
+    "tts:samples": "python3 scripts/voiceover.py --fetch-samples"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.1",
+    "@remotion/cli": "^4.0.354",
+    "@remotion/three": "^4.0.534",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "^4.0.354",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/three": "^0.186.0",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "project": "vibe-monitor-directors-launch",
+  "assets": [
+    {
+      "id": "original-score",
+      "relative_path": "public/vibe-monitor-directors-launch/audio/score.wav",
+      "source_url": "original/local/vibe-monitor/marketing/remotion/public/score-zh-120bpm.wav",
+      "author": "Vibe Monitor owner-generated original marketing score, extended by Motion Lab",
+      "license_url": "original/local",
+      "permission": "Original owner-created audio, crossfaded to 64 seconds",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "id": "original-foley",
+      "relative_path": "public/vibe-monitor-directors-launch/audio/foley.wav",
+      "source_url": "original/local",
+      "author": "Motion Lab custom foley",
+      "license_url": "original/local",
+      "permission": "original/local",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "id": "original-voice",
+      "relative_path": "public/vibe-monitor-directors-launch/audio/voice-01.wav",
+      "source_url": "original/local",
+      "author": "macOS Reed zh_CN TTS synthesizer",
+      "license_url": "macOS system voice; check redistribution license",
+      "permission": "Commercial redistribution rights for OS TTS voice require review before public paid campaigns",
+      "retrieved_at": "2026-10-11"
+    }
+  ],
+  "guidance": "One owner-generated 120 BPM music master, sparse generated foley, nine TTS clips. Visuals depict simulated architecture, no user code."
+}

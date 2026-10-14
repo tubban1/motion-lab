@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Remotion & Video Renders
+renders/
+.remotion/
+.cache/
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp*
+.temp-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Logs
+*.log
+blender-render.log
+
+# Intermediate raw frame sequences (already compiled into .mp4)
+public/**/motion/bounce/
+public/**/motion/gyro/
+public/**/motion/rolling/
+public/**/3d/frames/
+
+# Environment
+.env
+.env.local

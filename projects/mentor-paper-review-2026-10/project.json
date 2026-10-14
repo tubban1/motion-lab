@@ -1,0 +1,21 @@
+{
+  "projectId": "mentor-paper-review-2026-10",
+  "type": "academic-mentor-response",
+  "title": "这篇论文，先不要急着投",
+  "sourceDocument": "A Finite-Memory-Based Reinforcement Learning Framework for Collective Self-Organization in Multi-Agent Systems",
+  "language": "zh-CN",
+  "fps": 24,
+  "fullComposition": "MentorPaperReview",
+  "delivery": "renders/mentor-paper-review-2026-10.mp4",
+  "poster": "renders/mentor-paper-review-poster.png",
+  "durationSeconds": 172.875,
+  "visualFormat": "Remotion illustrated scenes + cinematic motion editing via FFmpeg",
+  "editorialNotes": "Nonmonotonic results are descriptive; time-scale mechanism speculation is explicitly a hypothesis; illustrative charts are not experimental data.",
+  "music": "Original locally synthesized score",
+  "status": "rendered-and-ffprobe-verified",
+  "commands": {
+    "studio": "npm run studio",
+    "fast": "npm run render:fast",
+    "full": "npm run render"
+  }
+}

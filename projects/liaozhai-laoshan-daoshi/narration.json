@@ -1,0 +1,42 @@
+[
+  {
+    "start_second": 0,
+    "text": "王生自小慕道，听闻劳山有仙人，便负笈入山。",
+    "asset": "voice_01.wav"
+  },
+  {
+    "start_second": 7,
+    "text": "他拜师之后，却每日砍柴。一个多月，手足生茧，早已厌倦。",
+    "asset": "voice_02.wav"
+  },
+  {
+    "start_second": 14,
+    "text": "一夜，道士剪纸如镜，贴在墙上。顷刻之间，满室月华。",
+    "asset": "voice_03.wav"
+  },
+  {
+    "start_second": 24,
+    "text": "宾客向月中掷筷，竟现出仙姬，翩翩起舞。",
+    "asset": "voice_04.wav"
+  },
+  {
+    "start_second": 31,
+    "text": "王生只求学会穿墙。道士笑他不能吃苦，仍传授口诀。",
+    "asset": "voice_05.wav"
+  },
+  {
+    "start_second": 39,
+    "text": "俯首，疾行！王生冲入墙壁，竟真穿了过去。",
+    "asset": "voice_06.wav"
+  },
+  {
+    "start_second": 45,
+    "text": "回到家，他向妻子夸耀，硬墙再不能阻挡自己。",
+    "asset": "voice_07.wav"
+  },
+  {
+    "start_second": 53,
+    "text": "谁知一头撞上石壁，额上肿如巨卵。世间王生，并不少。",
+    "asset": "voice_08.wav"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "project": "liaozhai-laoshan-daoshi",
+  "assets": [
+    {
+      "id": "owner-procedural-3d",
+      "relative_path": "public/liaozhai-laoshan-daoshi/3d/",
+      "source_url": null,
+      "author": "Motion Lab / Blender procedural CGI",
+      "license_url": null,
+      "permission": "original",
+      "retrieved_at": "2026-10-13",
+      "notes": "3D reenactment, not real actors or footage"
+    },
+    {
+      "id": "original-score",
+      "relative_path": "public/liaozhai-laoshan-daoshi/audio/score.wav",
+      "source_url": null,
+      "author": "Motion Lab generated synthesis",
+      "license_url": null,
+      "permission": "original",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "id": "system-tts",
+      "relative_path": "public/liaozhai-laoshan-daoshi/audio/",
+      "source_url": null,
+      "author": "macOS speech synthesizer",
+      "license_url": null,
+      "permission": "personal-preview-use; redistribution licensing unresolved",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}
