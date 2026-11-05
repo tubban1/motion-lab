@@ -1,0 +1,77 @@
+{
+  "disclaimer": "Signal diagnostics only; subjective voice quality and transcription accuracy not validated",
+  "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+  "samples": [
+    {
+      "file": "zh-male.wav",
+      "durationSeconds": 9.92,
+      "sampleRate": 24000,
+      "peakDbFS": -15.31,
+      "overallRmsDbFS": -34.42,
+      "activeFraction": 0.643,
+      "leadingSilenceSeconds": 0.52,
+      "trailingSilenceSeconds": 0.78,
+      "internalPausesSeconds": [
+        1.08,
+        0.64
+      ],
+      "flags": [],
+      "sampleId": "zh-male"
+    },
+    {
+      "file": "zh-female.wav",
+      "durationSeconds": 3.2,
+      "sampleRate": 24000,
+      "peakDbFS": -13.29,
+      "overallRmsDbFS": -28.89,
+      "activeFraction": 0.65,
+      "leadingSilenceSeconds": 0.22,
+      "trailingSilenceSeconds": 0.34,
+      "internalPausesSeconds": [],
+      "flags": [],
+      "sampleId": "zh-female"
+    },
+    {
+      "file": "en-male.wav",
+      "durationSeconds": 7.44,
+      "sampleRate": 24000,
+      "peakDbFS": -3.97,
+      "overallRmsDbFS": -24.91,
+      "activeFraction": 0.645,
+      "leadingSilenceSeconds": 0.44,
+      "trailingSilenceSeconds": 0.6,
+      "internalPausesSeconds": [
+        0.36,
+        0.44
+      ],
+      "flags": [],
+      "sampleId": "en-male"
+    },
+    {
+      "file": "zh-dialect.wav",
+      "durationSeconds": 3.28,
+      "sampleRate": 24000,
+      "peakDbFS": -9.17,
+      "overallRmsDbFS": -27.16,
+      "activeFraction": 0.579,
+      "leadingSilenceSeconds": 0.5,
+      "trailingSilenceSeconds": 0.58,
+      "internalPausesSeconds": [],
+      "flags": [],
+      "sampleId": "zh-dialect"
+    },
+    {
+      "file": "router-qwen-smoke.wav",
+      "durationSeconds": 9.76,
+      "sampleRate": 24000,
+      "peakDbFS": -2.67,
+      "overallRmsDbFS": -23.52,
+      "activeFraction": 0.65,
+      "leadingSilenceSeconds": 0.42,
+      "trailingSilenceSeconds": 0.58,
+      "internalPausesSeconds": [],
+      "flags": [],
+      "sampleId": "router-qwen-smoke"
+    }
+  ]
+}

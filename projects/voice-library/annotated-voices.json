@@ -1,0 +1,589 @@
+{
+  "schema": "motionlab.annotated-voice-library.v1",
+  "updatedAt": "2026-11-01",
+  "catalogType": "metadata only; no third-party speaker recordings downloaded",
+  "speakerSafety": "do not clone identifiable voices without verified consent or rights",
+  "voices": [
+    {
+      "id": "qwen3:Vivian",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Vivian",
+      "locale": "zh-CN",
+      "gender": "female",
+      "labels": [
+        "bright",
+        "slightly-edgy",
+        "young"
+      ],
+      "recommendedUse": "活泼短篇/生活叙事",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "qwen3:Serena",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Serena",
+      "locale": "zh-CN",
+      "gender": "female",
+      "labels": [
+        "warm",
+        "gentle",
+        "young"
+      ],
+      "recommendedUse": "柔和情感散文/温暖旁白",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "qwen3:Uncle_Fu",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Uncle_Fu",
+      "locale": "zh-CN",
+      "gender": "male",
+      "labels": [
+        "seasoned",
+        "low",
+        "mellow"
+      ],
+      "recommendedUse": "成熟历史旁白/沉稳叙述",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "qwen3:Dylan",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Dylan",
+      "locale": "zh-CN",
+      "gender": "male",
+      "labels": [
+        "youthful",
+        "Beijing-dialect",
+        "clear"
+      ],
+      "recommendedUse": "北京口音人物叙述",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "qwen3:Eric",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Eric",
+      "locale": "zh-CN",
+      "gender": "male",
+      "labels": [
+        "lively",
+        "Chengdu-dialect",
+        "husk"
+      ],
+      "recommendedUse": "四川口音/生活故事",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "qwen3:Ryan",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Ryan",
+      "locale": "en-US",
+      "gender": "male",
+      "labels": [
+        "dynamic",
+        "rhythmic"
+      ],
+      "recommendedUse": "英文节奏快的叙事",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "qwen3:Aiden",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Aiden",
+      "locale": "en-US",
+      "gender": "male",
+      "labels": [
+        "sunny",
+        "clear-midrange"
+      ],
+      "recommendedUse": "英文清晰纪录片",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "qwen3:Ono_Anna",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Ono_Anna",
+      "locale": "ja-JP",
+      "gender": "female",
+      "labels": [
+        "playful",
+        "nimble"
+      ],
+      "recommendedUse": "日语轻快叙事",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "qwen3:Sohee",
+      "engine": "qwen3-0.6b-customvoice",
+      "speaker": "Sohee",
+      "locale": "ko-KR",
+      "gender": "female",
+      "labels": [
+        "warm",
+        "emotional"
+      ],
+      "recommendedUse": "韩语情感叙述",
+      "emotionControl": "none-in-0.6b; use 1.7b for verified instruction-control",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "readiness": "catalogued; not yet acoustically accepted"
+    },
+    {
+      "id": "kokoro:af_heart",
+      "engine": "kokoro-82m",
+      "speaker": "af_heart",
+      "locale": "en-US",
+      "gender": "female",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:af_nicole",
+      "engine": "kokoro-82m",
+      "speaker": "af_nicole",
+      "locale": "en-US",
+      "gender": "female",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:af_bella",
+      "engine": "kokoro-82m",
+      "speaker": "af_bella",
+      "locale": "en-US",
+      "gender": "female",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:am_adam",
+      "engine": "kokoro-82m",
+      "speaker": "am_adam",
+      "locale": "en-US",
+      "gender": "male",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:am_michael",
+      "engine": "kokoro-82m",
+      "speaker": "am_michael",
+      "locale": "en-US",
+      "gender": "male",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:bf_emma",
+      "engine": "kokoro-82m",
+      "speaker": "bf_emma",
+      "locale": "en-GB",
+      "gender": "female",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:bm_george",
+      "engine": "kokoro-82m",
+      "speaker": "bm_george",
+      "locale": "en-GB",
+      "gender": "male",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:zf_xiaoxiao",
+      "engine": "kokoro-82m",
+      "speaker": "zf_xiaoxiao",
+      "locale": "zh-CN",
+      "gender": "female",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:zf_xiaobei",
+      "engine": "kokoro-82m",
+      "speaker": "zf_xiaobei",
+      "locale": "zh-CN",
+      "gender": "female",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:zm_yunyang",
+      "engine": "kokoro-82m",
+      "speaker": "zm_yunyang",
+      "locale": "zh-CN",
+      "gender": "male",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:zm_yunxi",
+      "engine": "kokoro-82m",
+      "speaker": "zm_yunxi",
+      "locale": "zh-CN",
+      "gender": "male",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "kokoro:jf_alpha",
+      "engine": "kokoro-82m",
+      "speaker": "jf_alpha",
+      "locale": "ja-JP",
+      "gender": "female",
+      "labels": [
+        "preset-voice",
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "fast offline voice audition",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/litert-community/Kokoro-82M",
+      "readiness": "catalogued; model not installed"
+    },
+    {
+      "id": "edge:zh-CN-YunyangNeural",
+      "engine": "edge-tts-prototype",
+      "speaker": "zh-CN-YunyangNeural",
+      "locale": "zh-CN",
+      "gender": "male",
+      "labels": [
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "深沉新闻/纪录片",
+      "license": "Cloud TTS rights depend on provider/service; Edge Web TTS is not a commercial-use license",
+      "source": "https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts",
+      "readiness": "edge-tts available on Windows; validate commercial production via official Azure Speech"
+    },
+    {
+      "id": "edge:zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts-prototype",
+      "speaker": "zh-CN-XiaoxiaoNeural",
+      "locale": "zh-CN",
+      "gender": "female",
+      "labels": [
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "温柔知性",
+      "license": "Cloud TTS rights depend on provider/service; Edge Web TTS is not a commercial-use license",
+      "source": "https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts",
+      "readiness": "edge-tts available on Windows; validate commercial production via official Azure Speech"
+    },
+    {
+      "id": "edge:zh-CN-YunxiNeural",
+      "engine": "edge-tts-prototype",
+      "speaker": "zh-CN-YunxiNeural",
+      "locale": "zh-CN",
+      "gender": "male",
+      "labels": [
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "年轻故事解说",
+      "license": "Cloud TTS rights depend on provider/service; Edge Web TTS is not a commercial-use license",
+      "source": "https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts",
+      "readiness": "edge-tts available on Windows; validate commercial production via official Azure Speech"
+    },
+    {
+      "id": "edge:en-US-GuyNeural",
+      "engine": "edge-tts-prototype",
+      "speaker": "en-US-GuyNeural",
+      "locale": "en-US",
+      "gender": "male",
+      "labels": [
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "英文清晰叙述",
+      "license": "Cloud TTS rights depend on provider/service; Edge Web TTS is not a commercial-use license",
+      "source": "https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts",
+      "readiness": "edge-tts available on Windows; validate commercial production via official Azure Speech"
+    },
+    {
+      "id": "edge:zh-HK-HiuGaaiNeural",
+      "engine": "edge-tts-prototype",
+      "speaker": "zh-HK-HiuGaaiNeural",
+      "locale": "zh-HK",
+      "gender": "female",
+      "labels": [
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "香港粤语",
+      "license": "Cloud TTS rights depend on provider/service; Edge Web TTS is not a commercial-use license",
+      "source": "https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts",
+      "readiness": "edge-tts available on Windows; validate commercial production via official Azure Speech"
+    },
+    {
+      "id": "edge:zh-HK-WanLungNeural",
+      "engine": "edge-tts-prototype",
+      "speaker": "zh-HK-WanLungNeural",
+      "locale": "zh-HK",
+      "gender": "male",
+      "labels": [
+        "language-tagged",
+        "gender-tagged"
+      ],
+      "recommendedUse": "香港粤语男声",
+      "license": "Cloud TTS rights depend on provider/service; Edge Web TTS is not a commercial-use license",
+      "source": "https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts",
+      "readiness": "edge-tts available on Windows; validate commercial production via official Azure Speech"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "AISHELL-3",
+      "url": "https://www.openslr.org/93",
+      "license": "Apache-2.0",
+      "labels": [
+        "text",
+        "pinyin",
+        "speaker",
+        "gender",
+        "age-group",
+        "native-accent",
+        "prosody"
+      ],
+      "size": "19GB archive",
+      "use": "Mandarin speaker selection / Mandarin prosody benchmark; avoid complete download",
+      "production": "license supports broad reuse; review attribution and dataset terms"
+    },
+    {
+      "id": "Hi-Fi TTS",
+      "url": "https://www.openslr.org/109",
+      "license": "CC BY 4.0",
+      "labels": [
+        "speaker-id",
+        "text",
+        "audiobook",
+        "sample-rate"
+      ],
+      "size": "41GB archive",
+      "use": "English audiobook-style reference and comparison",
+      "production": "attribution required"
+    },
+    {
+      "id": "LibriTTS-R",
+      "url": "https://openslr.org/141",
+      "license": "CC BY 4.0",
+      "labels": [
+        "speaker-id",
+        "transcript",
+        "clean/noisy split"
+      ],
+      "size": "large multi-GB archives",
+      "use": "English narration reference and duration/prosody evaluation",
+      "production": "attribution required"
+    },
+    {
+      "id": "ESD",
+      "url": "https://github.com/HLTSingapore/Emotional-Speech-Data",
+      "license": "research only / noncommercial",
+      "labels": [
+        "emotion",
+        "transcript",
+        "speaker-id",
+        "language"
+      ],
+      "size": "large",
+      "use": "emotion taxonomy/academic benchmarking only",
+      "production": "NOT ALLOWED for commercial narration library"
+    },
+    {
+      "id": "EmotiVoice",
+      "url": "https://github.com/netease-youdao/EmotiVoice",
+      "license": "Apache-2.0 code; interactive app has separate user agreement",
+      "labels": [
+        "voice",
+        "pitch",
+        "speed",
+        "energy",
+        "emotion"
+      ],
+      "size": "2000+ catalogued voices",
+      "use": "candidate emotion-controlled engine; review pretrained voice asset terms separately",
+      "production": "rights to weights and specific voices must be checked before publication"
+    },
+    {
+      "id": "Parler-TTS / LibriTTS-R Speaker Descriptions",
+      "url": "https://huggingface.co/datasets/parler-tts/libritts-r-filtered-speaker-descriptions",
+      "license": "CC BY 4.0",
+      "labels": [
+        "speaker-id",
+        "speaking-rate",
+        "pitch",
+        "gender",
+        "accent",
+        "monotony",
+        "noise",
+        "reverberation",
+        "SNR",
+        "speech-duration",
+        "text-description"
+      ],
+      "size": "metadata subset; audio not downloaded",
+      "use": "train director-cue to natural-language performance tags; ranked narrator selection",
+      "production": "attribution required; inspect original LibriTTS-R license for any audio use"
+    },
+    {
+      "id": "Mozilla Common Voice",
+      "url": "https://commonvoice.mozilla.org",
+      "license": "CC0-1.0",
+      "labels": [
+        "transcript",
+        "locale",
+        "accent when volunteered",
+        "speaker token",
+        "validated speech",
+        "age/gender when volunteered"
+      ],
+      "size": "select tiny language-specific verified subset only",
+      "use": "compare multilingual and accent robustness; NOT clone identifiable voice",
+      "production": "CC0; respect Mozilla usage rules, privacy, and no unauthorized voice impersonation"
+    },
+    {
+      "id": "WenetSpeech4TTS",
+      "url": "https://huggingface.co/datasets/Wenetspeech4TTS/WenetSpeech4TTS",
+      "license": "repository lists CC BY 4.0 BUT additional data terms restrict to NONCOMMERCIAL and original audio rights remain with source owners",
+      "labels": [
+        "Mandarin transcript",
+        "speaker clustering",
+        "DNSMOS quality tier",
+        "recording domain"
+      ],
+      "size": "12,800h; do not download",
+      "use": "research benchmark/taxonomy only, never commercial voice assets",
+      "production": "NOT ALLOWED without separate rights and source clearances"
+    }
+  ],
+  "acceptanceThresholds": {
+    "minimumHumanRatings": {
+      "naturalness": 4,
+      "pronunciation": 4,
+      "emotionMatch": 4,
+      "continuity": 4
+    },
+    "ratingScale": "1..5",
+    "cpuRtfGoal": 2,
+    "clippingMaxFraction": 0.0005,
+    "coverage": [
+      "Chinese",
+      "English",
+      "Cantonese via licensed provider"
+    ],
+    "requiredArtifacts": [
+      "wav file",
+      "source text",
+      "model and hash",
+      "timing",
+      "RTF",
+      "listener ratings"
+    ]
+  }
+}

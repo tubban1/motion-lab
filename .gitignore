@@ -33,3 +33,8 @@ public/**/3d/frames/
 # Environment
 .env
 .env.local
+
+# Local TTS evaluation recordings (keep reports and code; no binary samples in Git)
+projects/voice-library/acceptance/**/*.wav
+projects/voice-library/acceptance/**/*.mp3
+public/voice-qa/audio/

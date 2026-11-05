@@ -1,0 +1,61 @@
+{
+  "comparability": "Same script, different model and speaker; latency includes Edge network",
+  "samples": [
+    {
+      "id": "zh-male",
+      "text": "风停了。可是，有些话还没有说完。",
+      "provider": "edge-tts",
+      "voice": "zh-CN-YunyangNeural",
+      "rate": "-10%",
+      "pitch": "-8Hz",
+      "audioDurationSeconds": 4.224,
+      "generationSeconds": 8.909,
+      "rtf": 2.109,
+      "bytes": 25344,
+      "sha256": "f920705e70403b1d15e6cdeb39141130e429da9ce13e842239ca58f1d90a0acf",
+      "path": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\voice-library\\acceptance\\qwen3-0.6b\\edge-zh-male.mp3"
+    },
+    {
+      "id": "zh-female",
+      "text": "她没有回头，只有那盏灯，还亮着。",
+      "provider": "edge-tts",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-10%",
+      "pitch": "-8Hz",
+      "audioDurationSeconds": 4.128,
+      "generationSeconds": 4.607,
+      "rtf": 1.116,
+      "bytes": 24768,
+      "sha256": "54a20c1c0bc4ac6e5489466241e39a3be4e43d21edc01354641c78f38c2782f2",
+      "path": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\voice-library\\acceptance\\qwen3-0.6b\\edge-zh-female.mp3"
+    },
+    {
+      "id": "zh-dialect",
+      "text": "你听，这条街又热闹起来了。",
+      "provider": "edge-tts",
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-10%",
+      "pitch": "-8Hz",
+      "audioDurationSeconds": 3.72,
+      "generationSeconds": 1.459,
+      "rtf": 0.392,
+      "bytes": 22320,
+      "sha256": "36b666d4c429751d41734c0f4ed2ec23f2751e4cdda56fe2e6d3b11cc3d4a229",
+      "path": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\voice-library\\acceptance\\qwen3-0.6b\\edge-zh-dialect.mp3"
+    },
+    {
+      "id": "en-male",
+      "text": "I thought he would stay. But the room was quiet.",
+      "provider": "edge-tts",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "-10%",
+      "pitch": "-3Hz",
+      "audioDurationSeconds": 4.848,
+      "generationSeconds": 19.689,
+      "rtf": 4.061,
+      "bytes": 29088,
+      "sha256": "2efb37193045314afcd5b685ccbc08b6abd4f5874f9549f3453c2b731d833c5b",
+      "path": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\voice-library\\acceptance\\qwen3-0.6b\\edge-en-male.mp3"
+    }
+  ]
+}

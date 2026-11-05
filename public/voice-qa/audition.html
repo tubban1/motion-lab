@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motion Lab — 旁白声音验收</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#20242b;background:#f3f5f8}
+body{max-width:1120px;margin:0 auto;padding:35px 18px 80px}
+h1{margin:0 0 8px;font-size:30px}p{line-height:1.65;color:#56616f}
+.alert{background:#fff7e7;border-left:4px solid #b97920;padding:13px 17px;border-radius:6px;margin:20px 0}
+.pair{background:white;border:1px solid #dde1e9;border-radius:16px;padding:18px 20px;margin:20px 0;box-shadow:0 2px 9px #18243e08}
+.pair h2{margin:0 0 8px;font-size:20px}.line{display:grid;grid-template-columns:minmax(145px,1fr) minmax(220px,2fr) minmax(195px,2fr);gap:15px;padding:14px 0;border-top:1px solid #e7eaf0;align-items:center}
+.line b{display:block}.line small{display:block;color:#667582;margin-top:3px}audio{width:100%}
+.scores{display:grid;grid-template-columns:repeat(4,minmax(100px,1fr));gap:8px}
+.scores label{font-size:12px;color:#586477}
+select{display:block;width:100%;border:1px solid #cdd4dc;border-radius:7px;padding:7px;margin-top:5px;background:white;color:#26313c}
+textarea{width:100%;box-sizing:border-box;min-height:50px;padding:8px;border:1px solid #ccd4de;border-radius:7px;resize:vertical}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+button{border:0;background:#263c62;color:#fff;padding:12px 20px;border-radius:9px;cursor:pointer}
+button.secondary{background:#e3e9f1;color:#273448}
+@media(max-width:800px){.line{grid-template-columns:1fr}.scores{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header><h1>Motion Lab 声音试听验收</h1><p>Windows 本地试听 · Qwen3-TTS 0.6B vs Edge TTS · 同台词、不同音色 · 2026-11-01</p></header>
+<div class="alert"><strong>提醒：</strong>Qwen 已通过文件生成技术测试，尚未通过人耳音质验收。英文短句 Hello. 的 Qwen 输出长达 9.76 秒，需检查是否重复发音或生成多余内容。此页离线工作，评分仅保存在本机浏览器，导出由你操作。</div>
+<div id="tests"></div>
+<div class="pair">
+<h2>额外异常样本</h2>
+<p>Ryan 说 “Hello.”，生成了 9.76 秒音频。请重点记录：是否准确、重复、拖音、幻觉或杂音。</p>
+<audio controls preload="none" src="audio/router-qwen-smoke.wav"></audio>
+<textarea id="anomaly-note" placeholder="输入听到的内容或错误现象"></textarea>
+</div>
+<div class="pair">
+<h2>试听说明与结论</h2>
+<p>逐条听 Qwen 与 Edge，分别给自然度、发音准确性、情绪匹配、连贯性打 1–5 分，4 分及以上才是候选通过。任何漏词、重复或幻觉应单独说明。这里不自动判定生产通过。</p>
+<textarea id="general-note" placeholder="总体评价：哪种声线最适合港风叙事？哪个片段的呼吸感和停顿最自然？"></textarea>
+<div class="controls" style="margin-top:14px"><button id="export" type="button">导出本地评分 JSON</button><button id="reset" class="secondary" type="button">清空本页评分</button><span id="status" aria-live="polite"></span></div>
+</div>
+<script>
+const tests=[
+{id:"zh-male",role:"成熟男声 · 回望",text:"风停了。可是，有些话还没有说完。",q:"Uncle_Fu",e:"YunyangNeural"},
+{id:"zh-female",role:"温柔女声 · 情感",text:"她没有回头，只有那盏灯，还亮着。",q:"Serena",e:"XiaoxiaoNeural"},
+{id:"en-male",role:"英文男声 · 纪录片",text:"I thought he would stay. But the room was quiet.",q:"Ryan",e:"ChristopherNeural"},
+{id:"zh-dialect",role:"北京年轻男声 · 生活",text:"你听，这条街又热闹起来了。",q:"Dylan",e:"YunxiNeural"}];
+const dimensions=["自然度","发音","情绪","连贯"];
+const root=document.getElementById("tests");
+for(const t of tests){
+ const section=document.createElement("section");section.className="pair";
+ const title=document.createElement("h2");title.textContent=t.role;section.append(title);
+ const p=document.createElement("p");p.textContent=t.text;section.append(p);
+ for(const [engine,speaker,src] of [["Qwen 0.6B",t.q,t.id+".wav"],["Edge TTS",t.e,"edge-"+t.id+".mp3"]]){
+  const row=document.createElement("div");row.className="line";
+  const name=document.createElement("div");name.innerHTML="<b>"+engine+"</b><small>"+speaker+"</small>";
+  const audio=document.createElement("audio");audio.controls=true;audio.preload="none";audio.src="audio/"+src;
+  const score=document.createElement("div");score.className="scores";
+  for(const dim of dimensions){
+   const label=document.createElement("label");label.textContent=dim;
+   const sel=document.createElement("select");sel.dataset.rating=t.id+"|"+engine+"|"+dim;
+   for(const [value,text] of [["","待评分"],["1","1 非常差"],["2","2 较差"],["3","3 一般"],["4","4 良好"],["5","5 优秀"]]){
+     const op=document.createElement("option");op.value=value;op.textContent=text;sel.append(op);
+   }
+   label.append(sel);score.append(label);
+  }
+  row.append(name,audio,score);section.append(row);
+ }
+ root.append(section);
+}
+const key="motionlab-voice-audition-2026-11-01";
+function save(){
+ const ratings={};document.querySelectorAll("[data-rating]").forEach(s=>{ratings[s.dataset.rating]=s.value});
+ const result={schema:"motionlab.voice-listening.v1",timestamp:new Date().toISOString(),ratings,
+  anomalyNote:document.getElementById("anomaly-note").value,generalNote:document.getElementById("general-note").value};
+ localStorage.setItem(key,JSON.stringify(result));return result;
+}
+try{
+ const old=JSON.parse(localStorage.getItem(key)||"{}");
+ document.querySelectorAll("[data-rating]").forEach(s=>{if(old.ratings&&old.ratings[s.dataset.rating])s.value=old.ratings[s.dataset.rating]});
+ document.getElementById("anomaly-note").value=old.anomalyNote||"";
+ document.getElementById("general-note").value=old.generalNote||"";
+}catch(e){}
+document.querySelectorAll("select,textarea").forEach(s=>s.addEventListener("change",save));
+document.getElementById("export").addEventListener("click",()=>{
+ const data=JSON.stringify(save(),null,2);const blob=new Blob([data],{type:"application/json"});
+ const url=URL.createObjectURL(blob),a=document.createElement("a");
+ a.href=url;a.download="motion-lab-listening-2026-11-01.json";a.click();
+ setTimeout(()=>URL.revokeObjectURL(url),1000);
+ document.getElementById("status").textContent="评分 JSON 已触发保存";
+});
+document.getElementById("reset").addEventListener("click",()=>{
+ if(!confirm("确定清空此页评分？"))return;
+ localStorage.removeItem(key);document.querySelectorAll("select").forEach(s=>s.value="");
+ document.querySelectorAll("textarea").forEach(s=>s.value="");
+ document.getElementById("status").textContent="已清空";
+});
+</script>
+</body></html>
