@@ -12,7 +12,17 @@
     "poster:owl-vs-workbuddy": "remotion still src/index.ts OwlVsWorkBuddy renders/owl-vs-workbuddy-poster.png --frame 844",
     "tts": "python3 scripts/voiceover.py",
     "tts:list": "python3 scripts/voiceover.py --list",
-    "tts:samples": "python3 scripts/voiceover.py --fetch-samples"
+    "tts:samples": "python3 scripts/voiceover.py --fetch-samples",
+    "director:validate": "node --experimental-strip-types scripts/director/validate-plan.mjs",
+    "director:story-check": "node scripts/director/check-story.mjs",
+    "director:test": "node --experimental-strip-types --test tests/director.test.mjs tests/story-audit.test.mjs",
+    "rhythm:score": "py scripts/prosody/rhythm_engine.py --score-only",
+    "rhythm:voice": "py scripts/prosody/rhythm_engine.py --synthesize --compile",
+    "rhythm:retime": "py scripts/prosody/retime_story.py",
+    "rhythm:test": "py -m unittest discover -s tests -p test_prosody.py -v",
+    "voice:catalog": "py scripts/voice-library/voice_router.py --list",
+    "voice:render": "py scripts/voice-library/voice_router.py",
+    "voice:qa": "py -m unittest discover -s tests -p test_voice_router.py -v"
   },
   "dependencies": {
     "@react-three/fiber": "^9.8.1",
