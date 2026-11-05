@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "content_kind": "motion_graphics",
+  "visual_target": "stylized_cgi",
+  "human_performance": "none",
+  "existing_footage": "none",
+  "route": "motion_lab_native",
+  "rationale": "风格化三维隐喻（代码地毯 → 代码城市 → V 字）加真实数据动画；无人物表演、无实拍需求，由 Motion Lab 原生 three.js 逐帧渲染（多重子帧运动模糊/景深），声音全部本地合成。",
+  "external_service": null,
+  "external_generation_authorized": false,
+  "audio_engine": "edge",
+  "audio_fallback_reason": null
+}

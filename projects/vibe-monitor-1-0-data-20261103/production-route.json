@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "content_kind": "motion_graphics",
+  "visual_target": "graphic",
+  "human_performance": "none",
+  "existing_footage": "none",
+  "route": "motion_lab_native",
+  "rationale": "程序化图形、可验证几何、数据动画或风格化动画为主体；Motion Lab 原生制作。",
+  "external_service": null,
+  "external_generation_authorized": false,
+  "audio_engine": "edge",
+  "audio_fallback_reason": null
+}

@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "project": "vibe-monitor-1-0-data-20261103",
+  "assets": [
+    {
+      "id": "score",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/score.wav",
+      "source_url": "copied from public/vibe-monitor-directors-launch/audio/score.wav (orig: vibe-monitor marketing score-zh-120bpm.wav)",
+      "author": "Vibe Monitor owner-generated original marketing score, extended by Motion Lab",
+      "license_url": "original/local",
+      "permission": "Owner-created audio reused for the same product; trimmed to 62s with fade in Remotion",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "neon-data",
+      "relative_path": "src/projects/vibe-monitor-1-0-data-20261103/data.json",
+      "source_url": "vibe-monitor-internal docs/ROADMAP.md §0 (production Neon read-only check 2026-10-21)",
+      "author": "Vibe Monitor owner",
+      "license_url": "internal",
+      "permission": "Owner's own aggregated, pseudonymized product metrics",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "vo-01",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/vo-01.wav",
+      "source_url": "scripts/voiceover.py --voice tech (zh-CN-YunyangNeural) --rate=+4% --no-filter",
+      "author": "Microsoft Edge TTS",
+      "license_url": "docs/voiceover-guide.md (commercial terms need review)",
+      "permission": "Generated for this project; commercial redistribution terms of Edge TTS require review",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "vo-02",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/vo-02.wav",
+      "source_url": "scripts/voiceover.py --voice tech (zh-CN-YunyangNeural) --rate=+4% --no-filter",
+      "author": "Microsoft Edge TTS",
+      "license_url": "docs/voiceover-guide.md (commercial terms need review)",
+      "permission": "Generated for this project; commercial redistribution terms of Edge TTS require review",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "vo-03",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/vo-03.wav",
+      "source_url": "scripts/voiceover.py --voice tech (zh-CN-YunyangNeural) --rate=+4% --no-filter",
+      "author": "Microsoft Edge TTS",
+      "license_url": "docs/voiceover-guide.md (commercial terms need review)",
+      "permission": "Generated for this project; commercial redistribution terms of Edge TTS require review",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "vo-04",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/vo-04.wav",
+      "source_url": "scripts/voiceover.py --voice tech (zh-CN-YunyangNeural) --rate=+4% --no-filter",
+      "author": "Microsoft Edge TTS",
+      "license_url": "docs/voiceover-guide.md (commercial terms need review)",
+      "permission": "Generated for this project; commercial redistribution terms of Edge TTS require review",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "vo-05",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/vo-05.wav",
+      "source_url": "scripts/voiceover.py --voice tech (zh-CN-YunyangNeural) --rate=+4% --no-filter",
+      "author": "Microsoft Edge TTS",
+      "license_url": "docs/voiceover-guide.md (commercial terms need review)",
+      "permission": "Generated for this project; commercial redistribution terms of Edge TTS require review",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "vo-06",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/vo-06.wav",
+      "source_url": "scripts/voiceover.py --voice tech (zh-CN-YunyangNeural) --rate=+4% --no-filter",
+      "author": "Microsoft Edge TTS",
+      "license_url": "docs/voiceover-guide.md (commercial terms need review)",
+      "permission": "Generated for this project; commercial redistribution terms of Edge TTS require review",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "vo-07",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/vo-07.wav",
+      "source_url": "scripts/voiceover.py --voice tech (zh-CN-YunyangNeural) --rate=+4% --no-filter",
+      "author": "Microsoft Edge TTS",
+      "license_url": "docs/voiceover-guide.md (commercial terms need review)",
+      "permission": "Generated for this project; commercial redistribution terms of Edge TTS require review",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "vo-08",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/vo-08.wav",
+      "source_url": "scripts/voiceover.py --voice tech (zh-CN-YunyangNeural) --rate=+4% --no-filter",
+      "author": "Microsoft Edge TTS",
+      "license_url": "docs/voiceover-guide.md (commercial terms need review)",
+      "permission": "Generated for this project; commercial redistribution terms of Edge TTS require review",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "id": "sample-mix",
+      "relative_path": "public/vibe-monitor-1-0-data-20261103/audio/sample-mix.wav",
+      "source_url": "projects/vibe-monitor-1-0-data-20261103/sample/sound-design.mjs (synthesized locally) + vo-02/vo-03 Edge TTS",
+      "author": "Motion Lab (synthesized SFX/music) + Microsoft Edge TTS voice",
+      "license_url": "original/local; Edge TTS terms per docs/voiceover-guide.md",
+      "permission": "All music/SFX generated in-project; VO commercial terms need review",
+      "retrieved_at": "2026-11-04"
+    }
+  ],
+  "guidance": "Single music master + 8 VO clips. All visuals are programmatic Remotion graphics; no user source code, no third-party footage, no web fonts (system Microsoft YaHei / Consolas)."
+}

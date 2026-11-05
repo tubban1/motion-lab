@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "slug": "vibe-monitor-1-0-data-20261103",
+  "title": "Vibe Monitor 1.0｜让架构跟上 AI 的速度",
+  "genre": "product",
+  "fps": 30,
+  "duration_seconds": 62.0,
+  "total_frames": 1860,
+  "bpm_reference": 120.0,
+  "bpm_verified_for_music": true,
+  "bpm_measurement": "score.wav onset autocorrelation: 120.0 BPM, beat phase 0.0s (0.5s grid); all cuts on 2s bar boundaries",
+  "shots": [
+    {
+      "id": "shot-01",
+      "role": "hook",
+      "start_frame": 0,
+      "end_frame": 180,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "AI 编码速度已超过人理解架构的速度",
+      "camera": "右侧代码窗口 3D 透视 rotateY -12°，缓慢左移",
+      "blocking": "代码行高速滚动，行数/文件计数器上涨",
+      "lighting": "深海蓝径向光，青色强调",
+      "audio": "vo-01 @f12；score 渐入",
+      "visual_evidence": "滚动代码 + 计数器（标注动态示意）",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "vo-01",
+        "score"
+      ]
+    },
+    {
+      "id": "shot-02",
+      "role": "conflict",
+      "start_frame": 180,
+      "end_frame": 360,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "依赖越缠越紧，没人敢改",
+      "camera": "固定，节点微抖动",
+      "blocking": "依赖边从 10 增至 51，节点变红；f96 触碰节点产生 blast radius 环",
+      "lighting": "红色偏色背景",
+      "audio": "vo-02 @f192",
+      "visual_evidence": "依赖图与 BLAST RADIUS 卡片（示意）",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "vo-02"
+      ]
+    },
+    {
+      "id": "shot-03",
+      "role": "reveal",
+      "start_frame": 360,
+      "end_frame": 540,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "产品揭示：Vibe Monitor 1.0",
+      "camera": "居中，logo spring 放大",
+      "blocking": "依赖图塌缩到中心，V 标志弹出，标题/副标/英文 tagline 依次上浮",
+      "lighting": "青色中心光",
+      "audio": "vo-03 @f378",
+      "visual_evidence": "品牌标识 + README 官方 tagline",
+      "claim_status": "real",
+      "motion_required": false,
+      "asset_ids": [
+        "vo-03"
+      ]
+    },
+    {
+      "id": "shot-04",
+      "role": "mechanism",
+      "start_frame": 540,
+      "end_frame": 840,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "随会话启动/退出的 MCP 进程，无后台守护",
+      "camera": "固定全景原理图",
+      "blocking": "5 个 Agent → MCP stdio → Core ← Git/Source/History；Evidence→Trend→Pressure→Stage 脉冲；进程生命周期播放头",
+      "lighting": "中性",
+      "audio": "vo-04 @f555",
+      "visual_evidence": "依据开源 README 核心架构图",
+      "claim_status": "real",
+      "motion_required": false,
+      "asset_ids": [
+        "vo-04"
+      ]
+    },
+    {
+      "id": "shot-05",
+      "role": "feature",
+      "start_frame": 840,
+      "end_frame": 1140,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "一次扫描 13 类监测；S1/S2 安静，最多提示 2 类",
+      "camera": "固定",
+      "blocking": "扫描光束点亮 13 格；阶段条升至 S3；2 格变金色并弹出 NOTICE 卡",
+      "lighting": "青→金",
+      "audio": "vo-05 @f852",
+      "visual_evidence": "监测族名称与阶段规则来自 README；具体 S3 结果为示意",
+      "claim_status": "simulated",
+      "motion_required": false,
+      "asset_ids": [
+        "vo-05"
+      ]
+    },
+    {
+      "id": "shot-06",
+      "role": "proof",
+      "start_frame": 1140,
+      "end_frame": 1440,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "真实遥测数据证明产品在用",
+      "camera": "固定数据面板",
+      "blocking": "4 个 KPI 计数上涨；事件构成条；Agent 占比；finding.improved 大数字",
+      "lighting": "中性青",
+      "audio": "vo-06 @f1155",
+      "visual_evidence": "data.json（当前为 2026-10-21 生产 Neon 只读快照；live=false 时页脚注明）",
+      "claim_status": "real",
+      "motion_required": false,
+      "asset_ids": [
+        "vo-06",
+        "neon-data"
+      ]
+    },
+    {
+      "id": "shot-07",
+      "role": "trust",
+      "start_frame": 1440,
+      "end_frame": 1620,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "源码不出本机；结构扫描不调用 LLM",
+      "camera": "固定",
+      "blocking": "source.ts 在本机边界被拦截 ✕；metrics 数据包通过到 Vibe Cloud",
+      "lighting": "青/红对比",
+      "audio": "vo-07 @f1452",
+      "visual_evidence": "README 隐私声明 + 默认开启遥测披露与关闭命令",
+      "claim_status": "real",
+      "motion_required": false,
+      "asset_ids": [
+        "vo-07"
+      ]
+    },
+    {
+      "id": "shot-08",
+      "role": "cta",
+      "start_frame": 1620,
+      "end_frame": 1860,
+      "source_kind": "ui_motion",
+      "status": "produced",
+      "intent": "一行命令安装，开源，收尾口号",
+      "camera": "终端上移缩小，标题 spring 进入，末尾淡出",
+      "blocking": "打字机输入安装命令；口号与网址",
+      "lighting": "青色",
+      "audio": "vo-08 @f1632；score 最后 2 秒淡出",
+      "visual_evidence": "npm @vibe-monitor/setup@latest（1.0.14）、Apache-2.0、无需激活码",
+      "claim_status": "real",
+      "motion_required": false,
+      "asset_ids": [
+        "vo-08",
+        "score"
+      ]
+    }
+  ]
+}

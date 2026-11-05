@@ -1,0 +1,18 @@
+{
+  "live": false,
+  "asOf": "2026-10-21",
+  "source": "vibe-monitor-internal docs/ROADMAP.md §0 生产 Neon 只读核对快照",
+  "installations": 24,
+  "active7d": 18,
+  "projects": 197,
+  "events": 77000,
+  "findingObserved": 68000,
+  "findingImproved": 3476,
+  "noticeSurfaced": 685,
+  "agents": [
+    {"name": "Codex", "share": 0.97},
+    {"name": "Claude Code 等", "share": 0.03}
+  ],
+  "languages": ["JavaScript", "TypeScript", "TSX", "Python"],
+  "npmLatest": "1.0.14"
+}
