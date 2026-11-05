@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "title": "香港的风：一盒磁带、一条围巾",
+  "fps": 24,
+  "totalFrames": 4657,
+  "logline": "2026年一个人在香港翻出1993年的磁带，透过一段虚构爱情记忆，让英文的不肯留下与粤语的不肯放手在同一间房里相遇。",
+  "authenticity": "所有人物剧情都是虚构的视觉隐喻；照片只为已标明的地理历史背景，不冒充歌手或实际创作过程。",
+  "characters": [
+    {
+      "id": "younger-man",
+      "costume": "深蓝长外套与灰色行李箱",
+      "silhouette": "短发、肩部直线、步态较快"
+    },
+    {
+      "id": "younger-woman",
+      "costume": "暖棕色外套与红色围巾",
+      "silhouette": "中长发、肩部圆润、动作较缓"
+    },
+    {
+      "id": "present-listener",
+      "costume": "深蓝长袖，固定手部特写",
+      "silhouette": "观众视角，始终只出现一双手和侧背影"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "worldId": "home-present",
+      "startFrame": 0,
+      "endFrame": 645,
+      "year": 2026,
+      "location": "香港室内·夜",
+      "action": "成年人发现旧磁带，翻开收纳盒，拇指按下播放键，磁带缓缓转动",
+      "change": "静止的房间被一段声音带进回忆",
+      "emotionalResult": "好奇与触动",
+      "motifs": [
+        "cassette",
+        "window",
+        "hands",
+        "memory",
+        "light"
+      ],
+      "entranceFrom": null,
+      "handoffObject": null,
+      "exitObject": "cassette",
+      "visualEvidence": {
+        "mode": "mixed"
+      },
+      "archives": [
+        {
+          "assetId": "hongkong1990.jpg",
+          "subject": "Hong Kong street",
+          "claimedYear": 1990,
+          "context": "盒中夹着一张1990街景冲印照片",
+          "purpose": "解释磁带来自旧香港，作为相册照片而非演出影像",
+          "relation": "evidence"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "worldId": "street-memory",
+      "startFrame": 645,
+      "endFrame": 1356,
+      "year": 1993,
+      "location": "1993 香港街角·傍晚",
+      "action": "磁带转轴圆形匹配到1993街灯，男与女在街角靠近并共享一条红围巾",
+      "change": "从陌生到亲密，男子却发现末班车即将开走",
+      "emotionalResult": "心动但有期限",
+      "motifs": [
+        "cassette",
+        "street",
+        "scarf",
+        "light"
+      ],
+      "entranceFrom": "s1",
+      "handoffObject": "cassette",
+      "exitObject": "scarf",
+      "visualEvidence": {
+        "mode": "mixed"
+      },
+      "archives": [
+        {
+          "assetId": "hongkong1990.jpg",
+          "subject": "Hong Kong street",
+          "claimedYear": 1990,
+          "context": "以1990年前后的街景资料作为虚构故事所在的城市环境；人物与动作均是动画，不声称为照片实录",
+          "purpose": "建立共同的香港街角场景，并跨相遇和离别持续保持空间连续性",
+          "relation": "atmosphere"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "worldId": "street-memory",
+      "startFrame": 1356,
+      "endFrame": 2097,
+      "year": 1993,
+      "location": "同一街角·从夜到清晨",
+      "action": "二人在街灯下短暂拥抱；男子拿上箱包走远，女子攥住围巾站在原地",
+      "change": "同一空间从两个人变成一个人；车光从中间划过遮住告别",
+      "emotionalResult": "离别真的发生",
+      "motifs": [
+        "street",
+        "scarf",
+        "suitcase",
+        "light",
+        "door"
+      ],
+      "entranceFrom": "s2",
+      "handoffObject": "scarf",
+      "exitObject": "scarf",
+      "visualEvidence": {
+        "mode": "mixed"
+      },
+      "archives": [
+        {
+          "assetId": "hongkong1990.jpg",
+          "subject": "Hong Kong street",
+          "claimedYear": 1990,
+          "context": "以1990年前后的街景资料作为虚构故事所在的城市环境；人物与动作均是动画，不声称为照片实录",
+          "purpose": "建立共同的香港街角场景，并跨相遇和离别持续保持空间连续性",
+          "relation": "atmosphere"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "worldId": "room-memory",
+      "startFrame": 2097,
+      "endFrame": 2928,
+      "year": 1993,
+      "location": "1993年房间·清晨",
+      "action": "女子把围巾挂在窗边，风把窗推开，信纸被掀起，另一张椅子空着",
+      "change": "风从窗外进入房间，人在镜头外，物件替她承受离别",
+      "emotionalResult": "爱已走，痛还在",
+      "motifs": [
+        "scarf",
+        "window",
+        "letter",
+        "rain",
+        "hands"
+      ],
+      "entranceFrom": "s3",
+      "handoffObject": "scarf",
+      "exitObject": "letter",
+      "visualEvidence": {
+        "mode": "illustrated"
+      },
+      "archives": []
+    },
+    {
+      "id": "s5",
+      "worldId": "harbour-present",
+      "startFrame": 2928,
+      "endFrame": 3813,
+      "year": 2026,
+      "location": "2026年香港海边·夜",
+      "action": "多年后的一个人拿着旧信站在海边，风吹动围巾，拿出同一盒磁带",
+      "change": "过去的离别被今天的等待重新照亮",
+      "emotionalResult": "并未承诺重逢，只仍然愿意等待",
+      "motifs": [
+        "letter",
+        "scarf",
+        "cassette",
+        "harbour",
+        "city",
+        "memory"
+      ],
+      "entranceFrom": "s4",
+      "handoffObject": "letter",
+      "exitObject": "cassette",
+      "visualEvidence": {
+        "mode": "illustrated"
+      },
+      "archives": []
+    },
+    {
+      "id": "s6",
+      "worldId": "home-present",
+      "startFrame": 3813,
+      "endFrame": 4657,
+      "year": 2026,
+      "location": "同一2026房间·夜",
+      "action": "回到最初桌面，磁带的两只转轴继续旋转，旧信和围巾放在旁边，播放键最终弹起，窗外城市仍亮",
+      "change": "人已经离开但留下了声音；最后镜头停在磁带上，不翻页结束",
+      "emotionalResult": "过去没有回来，但愿意记住",
+      "motifs": [
+        "cassette",
+        "letter",
+        "window",
+        "city",
+        "light",
+        "memory"
+      ],
+      "entranceFrom": "s5",
+      "handoffObject": "cassette",
+      "exitObject": "cassette",
+      "visualEvidence": {
+        "mode": "mixed"
+      },
+      "archives": [
+        {
+          "assetId": "hongkong1990.jpg",
+          "subject": "Hong Kong street",
+          "claimedYear": 1990,
+          "context": "收纳盒中同一张早前出现的旧街照片",
+          "purpose": "视觉闭环：回到最初物件",
+          "relation": "editorial-context"
+        }
+      ]
+    }
+  ],
+  "editingRules": {
+    "noSegmentCounters": true,
+    "noParagraphCards": true,
+    "continuousLocations": true,
+    "cutOnVisualAction": true,
+    "reuseContinuityProps": true
+  },
+  "noMusic": true
+}

@@ -1,0 +1,23 @@
+{
+  "render_path": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\renders\\hongkong-wind-lyrics-20261031\\hongkong-wind-lyrics-windows-v1.mp4",
+  "fps": 24,
+  "width": 540,
+  "height": 960,
+  "expected_frames": 4657,
+  "decoded_frames": 4657,
+  "duration_seconds": 194.048,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "bytes": 33018111,
+  "black_frame_candidates": [],
+  "single_frame_corruption_candidates": [],
+  "voice_roles": [
+    "narrator",
+    "english",
+    "cantonese"
+  ],
+  "background_music": false,
+  "music_master_recording_included": false,
+  "authoritative_lyrics": "Unreleased live song, use short editorial excerpts only",
+  "status": "PASS"
+}

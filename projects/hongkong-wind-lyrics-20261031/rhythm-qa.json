@@ -1,0 +1,24 @@
+{
+  "status": "TECHNICAL_PASS",
+  "directorStatus": "LISTENING_AND_STORY_REVIEW_PENDING",
+  "source": "Windows Motion Lab - real recorded Edge TTS timing",
+  "fps": 24,
+  "blocks": 19,
+  "phrases": 61,
+  "voiceSeconds": 181.71,
+  "silentSeconds": 43.33,
+  "silenceFraction": 0.191,
+  "reactionHoldSeconds": 12.04,
+  "ratePercentRange": [
+    -21,
+    5
+  ],
+  "distinctTempoSettings": 24,
+  "storyScenes": 6,
+  "originalSeconds": 194.04,
+  "rhythmSeconds": 226.54,
+  "additionalSeconds": 32.5,
+  "issues": [],
+  "approvalRule": "Do not publish solely on automatic checks. Listen to beginning, emotional reversal, Cantonese/English, ending; watch actor continuity. Real breath/acting quality is subjective.",
+  "notes": "Silent frame holds are intentional; fake breathing sound effects and background music are not inserted."
+}

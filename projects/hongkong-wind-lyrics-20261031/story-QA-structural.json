@@ -1,0 +1,39 @@
+{
+  "status": "STRUCTURAL_PASS",
+  "sceneCount": 6,
+  "worldCount": 4,
+  "linkedScenes": 5,
+  "recurringMotifs": [
+    {
+      "name": "cassette",
+      "appearances": 4
+    },
+    {
+      "name": "window",
+      "appearances": 3
+    },
+    {
+      "name": "memory",
+      "appearances": 3
+    },
+    {
+      "name": "light",
+      "appearances": 4
+    },
+    {
+      "name": "scarf",
+      "appearances": 4
+    },
+    {
+      "name": "letter",
+      "appearances": 3
+    }
+  ],
+  "matchedArchivalUses": 4,
+  "errors": [],
+  "warnings": [],
+  "limitation": "Metadata/author-checked semantic proof; actual onscreen correctness still requires frame-by-frame visual review.",
+  "plan": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\hongkong-wind-lyrics-20261031\\story-continuity.json",
+  "evidence": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\hongkong-wind-lyrics-20261031\\asset-evidence.json",
+  "requirement": "Structural PASS is necessary, never sufficient: review original images, at least 3 frames per scene, action continuity and narrator pronunciation."
+}

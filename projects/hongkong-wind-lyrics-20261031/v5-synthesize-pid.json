@@ -1,0 +1,13 @@
+{
+  "stage": "synthesize",
+  "pid": 8460,
+  "command": [
+    "C:\\Python314\\python.exe",
+    "-u",
+    "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\scripts\\prosody\\hk_emotion_v5.py",
+    "synthesize"
+  ],
+  "startedAt": "2026-11-02T07:07:29",
+  "stdout": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\hongkong-wind-lyrics-20261031\\v5-synthesize.stdout.log",
+  "stderr": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\hongkong-wind-lyrics-20261031\\v5-synthesize.stderr.log"
+}

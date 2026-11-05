@@ -1,0 +1,21 @@
+{
+  "stage": "render-hd",
+  "pid": 30444,
+  "command": [
+    "node",
+    "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\node_modules\\@remotion\\cli\\remotion-cli.js",
+    "render",
+    "src/index.ts",
+    "HKContinuousStoryEmotionV5",
+    "renders/hongkong-wind-lyrics-20261031/emotion-v5/HK-seasonal-wind-emotion-v5-720x1280.mp4",
+    "--codec",
+    "h264",
+    "--crf",
+    "19",
+    "--concurrency",
+    "2"
+  ],
+  "startedAt": "2026-11-02T07:15:41",
+  "stdout": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\hongkong-wind-lyrics-20261031\\v5-render-hd.stdout.log",
+  "stderr": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\hongkong-wind-lyrics-20261031\\v5-render-hd.stderr.log"
+}

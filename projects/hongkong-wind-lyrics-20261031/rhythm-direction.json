@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "blocks": {
+    "01": {
+      "arc": "悬念：时间坐标—异物闯入",
+      "chunks": [
+        {
+          "text": "2026年10月24日，香港启德。",
+          "ratePercent": -5,
+          "pauseAfterMs": 390,
+          "direction": "沉稳地交代地点"
+        },
+        {
+          "text": "一个从1993年吹来的声音，",
+          "ratePercent": -9,
+          "pauseAfterMs": 470,
+          "direction": "回望，微微停住"
+        },
+        {
+          "text": "突然闯进了The Weeknd的新歌《Hong Kong》。",
+          "ratePercent": 2,
+          "pauseAfterMs": 780,
+          "direction": "突然加速后收住"
+        }
+      ]
+    },
+    "02": {
+      "arc": "问题—揭示，不是连续解释",
+      "chunks": [
+        {
+          "text": "你以为他只是在致敬王菲。",
+          "ratePercent": 3,
+          "pauseAfterMs": 320,
+          "direction": "抛出问题"
+        },
+        {
+          "text": "可把两首歌的词放在一起，",
+          "ratePercent": -2,
+          "pauseAfterMs": 330,
+          "direction": "带着听众靠近"
+        },
+        {
+          "text": "才发现，最动人的不是旋律，",
+          "ratePercent": -10,
+          "pauseAfterMs": 520,
+          "direction": "轻声递进"
+        },
+        {
+          "text": "而是两个年代，仿佛在接续同一次告别。",
+          "ratePercent": -12,
+          "pauseAfterMs": 1050,
+          "direction": "留给画面时间"
+        }
+      ]
+    },
+    "06": {
+      "arc": "否定—反转—现实代价",
+      "chunks": [
+        {
+          "text": "听清楚：",
+          "ratePercent": 5,
+          "pauseAfterMs": 220,
+          "direction": "提醒但不吼"
+        },
+        {
+          "text": "不是不想留下。",
+          "ratePercent": -17,
+          "pauseAfterMs": 630,
+          "direction": "重读不想，之后真正停住"
+        },
+        {
+          "text": "是再热烈的爱，也不一定能战胜现实。",
+          "ratePercent": -8,
+          "pauseAfterMs": 470,
+          "direction": "沉住"
+        },
+        {
+          "text": "一个人愿意交出全部，",
+          "ratePercent": -1,
+          "pauseAfterMs": 330,
+          "direction": "略快，制造预期"
+        },
+        {
+          "text": "却交不出最普通的陪伴。",
+          "ratePercent": -19,
+          "pauseAfterMs": 1150,
+          "direction": "重量落在陪伴"
+        }
+      ]
+    },
+    "08": {
+      "arc": "两个视角的对称",
+      "chunks": [
+        {
+          "text": "王菲却站在爱情的另一边。",
+          "ratePercent": -6,
+          "pauseAfterMs": 390,
+          "direction": "站位转变"
+        },
+        {
+          "text": "她明明已经决定离开，",
+          "ratePercent": -8,
+          "pauseAfterMs": 350,
+          "direction": "克制"
+        },
+        {
+          "text": "拥抱时，又一次失去勇气。",
+          "ratePercent": -15,
+          "pauseAfterMs": 570,
+          "direction": "向内收"
+        },
+        {
+          "text": "一个人被生活困住，",
+          "ratePercent": 1,
+          "pauseAfterMs": 280,
+          "direction": "陈述事实"
+        },
+        {
+          "text": "一个人被自己的心困住。",
+          "ratePercent": -13,
+          "pauseAfterMs": 850,
+          "direction": "对称句落下"
+        }
+      ]
+    },
+    "09": {
+      "arc": "夜与清晨，留给镜头动作",
+      "chunks": [
+        {
+          "text": "英文主歌还有更狠的一笔。",
+          "ratePercent": 1,
+          "pauseAfterMs": 260,
+          "direction": "前奏"
+        },
+        {
+          "text": "昨夜他们贴得那么近，",
+          "ratePercent": -8,
+          "pauseAfterMs": 570,
+          "direction": "亲密"
+        },
+        {
+          "text": "到了天亮，",
+          "ratePercent": -14,
+          "pauseAfterMs": 540,
+          "direction": "让画面完成天光变化"
+        },
+        {
+          "text": "却像素未谋面的陌生人。",
+          "ratePercent": -17,
+          "pauseAfterMs": 660,
+          "direction": "残酷的反差"
+        },
+        {
+          "text": "感情才刚刚发生，就没有了明天。",
+          "ratePercent": -12,
+          "pauseAfterMs": 1050,
+          "direction": "音落后仍留空镜"
+        }
+      ]
+    },
+    "11": {
+      "arc": "风从进入到离开",
+      "chunks": [
+        {
+          "text": "王菲没有追问对方为什么走。",
+          "ratePercent": -6,
+          "pauseAfterMs": 400,
+          "direction": "少解释"
+        },
+        {
+          "text": "她把那个人写成了风。",
+          "ratePercent": -11,
+          "pauseAfterMs": 560,
+          "direction": "词意落在风"
+        },
+        {
+          "text": "来时改变了整个世界，",
+          "ratePercent": 3,
+          "pauseAfterMs": 250,
+          "direction": "略快扬起"
+        },
+        {
+          "text": "走的时候，却不肯带走留下的痛。",
+          "ratePercent": -17,
+          "pauseAfterMs": 1050,
+          "direction": "余痛"
+        }
+      ]
+    },
+    "13": {
+      "arc": "清晨和夜晚的对照",
+      "chunks": [
+        {
+          "text": "于是两首歌有了令人心碎的时间差。",
+          "ratePercent": -4,
+          "pauseAfterMs": 390,
+          "direction": "发现"
+        },
+        {
+          "text": "他唱的是离别发生的清晨。",
+          "ratePercent": -8,
+          "pauseAfterMs": 610,
+          "direction": "停住，让清晨成立"
+        },
+        {
+          "text": "她唱的是离别以后，",
+          "ratePercent": -8,
+          "pauseAfterMs": 370,
+          "direction": "转向另一人"
+        },
+        {
+          "text": "一遍遍醒来的夜晚。",
+          "ratePercent": -17,
+          "pauseAfterMs": 1050,
+          "direction": "孤独延长"
+        }
+      ]
+    },
+    "15": {
+      "arc": "解释段落加速，最后减速",
+      "chunks": [
+        {
+          "text": "英文里，他试着习惯人生的变迁。",
+          "ratePercent": 4,
+          "pauseAfterMs": 260,
+          "direction": "平实"
+        },
+        {
+          "text": "粤语里，她明知季候会更替，",
+          "ratePercent": 1,
+          "pauseAfterMs": 240,
+          "direction": "连续"
+        },
+        {
+          "text": "却还是挡不住下一次心动。",
+          "ratePercent": -7,
+          "pauseAfterMs": 430,
+          "direction": "转折"
+        },
+        {
+          "text": "他们都懂得时间会改变一切，",
+          "ratePercent": -9,
+          "pauseAfterMs": 430,
+          "direction": "慢下来"
+        },
+        {
+          "text": "却都没学会怎样不再想念。",
+          "ratePercent": -16,
+          "pauseAfterMs": 920,
+          "direction": "余韵"
+        }
+      ]
+    },
+    "17": {
+      "arc": "不可能—等待—留地址",
+      "chunks": [
+        {
+          "text": "他先说，人生不允许自己留下。",
+          "ratePercent": -9,
+          "pauseAfterMs": 420,
+          "direction": "陈述不能"
+        },
+        {
+          "text": "到最后，却仍然愿意等待。",
+          "ratePercent": -15,
+          "pauseAfterMs": 650,
+          "direction": "扭转"
+        },
+        {
+          "text": "或许那个人不会回头，",
+          "ratePercent": -11,
+          "pauseAfterMs": 440,
+          "direction": "留悬念"
+        },
+        {
+          "text": "但他还是为她留着一个地址。",
+          "ratePercent": -18,
+          "pauseAfterMs": 1200,
+          "direction": "不做廉价煽情"
+        }
+      ]
+    },
+    "19": {
+      "arc": "结尾三次递进，情绪收束",
+      "chunks": [
+        {
+          "text": "她像是在说：风走了，我的痛还在。",
+          "ratePercent": -14,
+          "pauseAfterMs": 610,
+          "direction": "第一层：余痛"
+        },
+        {
+          "text": "他像是在回答：如果风回来，我还在这里。",
+          "ratePercent": -12,
+          "pauseAfterMs": 770,
+          "direction": "第二层：应答"
+        },
+        {
+          "text": "三十三年，两个声音，一座城。",
+          "ratePercent": -17,
+          "pauseAfterMs": 1000,
+          "direction": "第三层：城市全景"
+        },
+        {
+          "text": "原来有些歌不是重新响起，",
+          "ratePercent": -6,
+          "pauseAfterMs": 350,
+          "direction": "突然开始加速"
+        },
+        {
+          "text": "而是多年以后，终于有人替它说完了心事。",
+          "ratePercent": -21,
+          "pauseAfterMs": 1800,
+          "direction": "最后一句极慢，之后无声留白"
+        }
+      ]
+    }
+  },
+  "reactionHolds": {
+    "01": 420,
+    "02": 450,
+    "03": 640,
+    "04": 320,
+    "05": 610,
+    "06": 610,
+    "07": 640,
+    "08": 370,
+    "09": 780,
+    "10": 650,
+    "11": 390,
+    "12": 800,
+    "13": 640,
+    "14": 450,
+    "15": 530,
+    "16": 930,
+    "17": 930,
+    "18": 450,
+    "19": 1400
+  }
+}

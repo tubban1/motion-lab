@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-31",
+  "assets": [
+    {
+      "id": "hongkong1990.jpg",
+      "status": "approved",
+      "captureYear": 1990,
+      "observedSubjects": [
+        "Hong Kong street",
+        "street life",
+        "roadside shop signs"
+      ],
+      "permittedPurposes": [
+        "archive location",
+        "urban context"
+      ],
+      "restrictions": "Archival city street only; cannot depict the fictional couple's interaction",
+      "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong_1990.jpg"
+    },
+    {
+      "id": "hongkong1993a.jpg",
+      "status": "approved",
+      "captureYear": 1993,
+      "observedSubjects": [
+        "Minden Avenue sign"
+      ],
+      "permittedPurposes": [
+        "archival street sign"
+      ],
+      "restrictions": "Not a scene of a couple",
+      "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong,_Minden_Avenue,_Februar_1993_(1).jpg"
+    },
+    {
+      "id": "hongkong1993b.jpg",
+      "status": "approved",
+      "captureYear": 1993,
+      "observedSubjects": [
+        "Minden Row sign"
+      ],
+      "permittedPurposes": [
+        "archival street sign"
+      ],
+      "restrictions": "Not an image of breakup",
+      "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong,_Minden_Row,_Februar_1993_(1).jpg"
+    },
+    {
+      "id": "aber1980.jpg",
+      "status": "approved",
+      "captureYear": 1980,
+      "observedSubjects": [
+        "Aberdeen harbour",
+        "working fishing boats",
+        "fisherman"
+      ],
+      "permittedPurposes": [
+        "1980 Hong Kong waterway history"
+      ],
+      "restrictions": "Not a picture of intimate embrace or departure",
+      "source": "https://commons.wikimedia.org/wiki/File:Aberdeen_Harbor,_Hong_Kong_1980.jpg"
+    },
+    {
+      "id": "faye.jpg",
+      "status": "approved",
+      "captureYear": 2011,
+      "observedSubjects": [
+        "Faye Wong performing",
+        "stage lights"
+      ],
+      "permittedPurposes": [
+        "2011 artist portrait"
+      ],
+      "restrictions": "Cannot label 1993",
+      "source": "https://commons.wikimedia.org/wiki/File:Faye_2011_Hong_Kong.jpg"
+    },
+    {
+      "id": "kaitak1980.jpg",
+      "status": "approved",
+      "captureYear": 1980,
+      "observedSubjects": [
+        "Kai Tak aerial view",
+        "runway"
+      ],
+      "permittedPurposes": [
+        "1980 geographic context"
+      ],
+      "restrictions": "Not a person waiting",
+      "source": "https://commons.wikimedia.org/wiki/File:Kai_Tak_Arial_Photo_in_80s_of_the_20th_Century.jpg"
+    },
+    {
+      "id": "construction1990.jpg",
+      "status": "approved",
+      "captureYear": 1995,
+      "observedSubjects": [
+        "cranes",
+        "construction"
+      ],
+      "permittedPurposes": [
+        "1990s urban change"
+      ],
+      "restrictions": "Not picture of a couple's relationship",
+      "source": "https://commons.wikimedia.org/wiki/File:Mid-1990s_Construction_in_Hong_Kong.jpg"
+    },
+    {
+      "id": "hktram.jpg",
+      "status": "approved",
+      "captureYear": 1993,
+      "observedSubjects": [
+        "Peak Tram",
+        "tram tunnel"
+      ],
+      "permittedPurposes": [
+        "tram transportation"
+      ],
+      "restrictions": "Do not claim to be street tram",
+      "source": "https://commons.wikimedia.org/"
+    },
+    {
+      "id": "street1993.jpg",
+      "status": "quarantined",
+      "captureYear": null,
+      "observedSubjects": [
+        "modern Hotdog shop",
+        "masked customers",
+        "sign since 1993"
+      ],
+      "permittedPurposes": [],
+      "restrictions": "A shop saying since 1993 does not date the photo; pandemic-era elements indicate modern photo",
+      "source": ""
+    },
+    {
+      "id": "anita.jpg",
+      "status": "approved",
+      "captureYear": 2021,
+      "observedSubjects": [
+        "Anita Mui concert costume museum exhibit"
+      ],
+      "permittedPurposes": [
+        "museum object"
+      ],
+      "restrictions": "Not Anita Mui performing 1993"
+    },
+    {
+      "id": "ka_kui.jpg",
+      "status": "approved",
+      "captureYear": 2021,
+      "observedSubjects": [
+        "Wong Ka Kui guitar museum display"
+      ],
+      "permittedPurposes": [
+        "museum object"
+      ],
+      "restrictions": "Not live stage performance"
+    },
+    {
+      "id": "leslie.jpg",
+      "status": "approved",
+      "captureYear": null,
+      "observedSubjects": [
+        "Leslie Cheung stage with fans"
+      ],
+      "permittedPurposes": [
+        "artist photograph"
+      ],
+      "restrictions": "No inferred date"
+    }
+  ]
+}

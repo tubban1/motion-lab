@@ -1,0 +1,46 @@
+{
+  "status": "STRUCTURAL_PASS",
+  "disclaimer": "Technical/structural evidence only. Director approval requires viewing all transitions and hearing final mix.",
+  "plan": "C:\\Users\\i95i\\mcp-workspace\\motion-lab\\projects\\hongkong-wind-lyrics-20261031\\director-plan.json",
+  "info": {
+    "frameDuration": 4657,
+    "seconds": 194.04166666666666,
+    "shots": 32,
+    "audio": 19,
+    "averageShotSeconds": 6.06,
+    "cutTypes": {
+      "cut": 25,
+      "match-cut": 3,
+      "dip-to-black": 1,
+      "dissolve": 2,
+      "wipe-left": 1
+    },
+    "cameraMoves": {
+      "push": 3,
+      "truck-right": 4,
+      "pull": 10,
+      "pan-left": 8,
+      "truck-left": 1,
+      "tilt-up": 4,
+      "pan-right": 1,
+      "locked": 1
+    },
+    "framing": {
+      "extreme-wide": 1,
+      "medium": 11,
+      "close-up": 14,
+      "insert": 2,
+      "wide": 4
+    },
+    "audioBridges": {
+      "none": 24,
+      "j-cut": 4,
+      "l-cut": 4
+    },
+    "uniqueScenes": 11,
+    "sourceFilesVerified": 32,
+    "sourceFilesMissing": []
+  },
+  "errors": [],
+  "warnings": []
+}

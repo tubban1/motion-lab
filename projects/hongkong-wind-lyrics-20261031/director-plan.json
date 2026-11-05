@@ -1,0 +1,1348 @@
+{
+  "version": 1,
+  "title": "Hong Kong × 季候风 | Director Edit v2",
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "totalFrames": 4657,
+  "shots": [
+    {
+      "id": "s001",
+      "beatId": "01",
+      "sceneId": "opening",
+      "subjectId": "city",
+      "purpose": "片头建立1993—2026",
+      "startFrame": 0,
+      "endFrame": 36,
+      "size": "extreme-wide",
+      "camera": {
+        "move": "push",
+        "amount": 0.3,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "开场建立时间坐标"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "片头留白"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s002",
+      "beatId": "01",
+      "sceneId": "opening",
+      "subjectId": "city",
+      "purpose": "建立叙事关系",
+      "startFrame": 36,
+      "endFrame": 189,
+      "size": "medium",
+      "camera": {
+        "move": "truck-right",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s003",
+      "beatId": "01",
+      "sceneId": "opening",
+      "subjectId": "city",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 189,
+      "endFrame": 321,
+      "size": "close-up",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s004",
+      "beatId": "02",
+      "sceneId": "opening",
+      "subjectId": "city",
+      "purpose": "建立叙事关系",
+      "startFrame": 321,
+      "endFrame": 501,
+      "size": "insert",
+      "camera": {
+        "move": "pan-left",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s005",
+      "beatId": "02",
+      "sceneId": "opening",
+      "subjectId": "city",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 501,
+      "endFrame": 655,
+      "size": "medium",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s006",
+      "beatId": "03",
+      "sceneId": "air",
+      "subjectId": "two-lovers",
+      "purpose": "读出原文，让歌词说话",
+      "startFrame": 655,
+      "endFrame": 740,
+      "size": "close-up",
+      "camera": {
+        "move": "truck-left",
+        "amount": 0.38,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1993a.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "以歌词前置听觉构造J-cut"
+      },
+      "audioBridgeIn": {
+        "kind": "j-cut",
+        "reason": "声音不被画面硬切截断"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s007",
+      "beatId": "04",
+      "sceneId": "air",
+      "subjectId": "two-lovers",
+      "purpose": "建立叙事关系",
+      "startFrame": 740,
+      "endFrame": 844,
+      "size": "close-up",
+      "camera": {
+        "move": "tilt-up",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1993a.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s008",
+      "beatId": "04",
+      "sceneId": "air",
+      "subjectId": "two-lovers",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 844,
+      "endFrame": 934,
+      "size": "medium",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1993a.jpg",
+      "transitionIn": {
+        "kind": "match-cut",
+        "frames": 0,
+        "reason": "让主体位置或动作形成剪辑逻辑"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s009",
+      "beatId": "05",
+      "sceneId": "stay",
+      "subjectId": "one-leaves",
+      "purpose": "读出原文，让歌词说话",
+      "startFrame": 934,
+      "endFrame": 1047,
+      "size": "close-up",
+      "camera": {
+        "move": "push",
+        "amount": 0.38,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "让上一句声音延续进入新画面"
+      },
+      "audioBridgeIn": {
+        "kind": "l-cut",
+        "reason": "声音不被画面硬切截断"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s010",
+      "beatId": "06",
+      "sceneId": "stay",
+      "subjectId": "one-leaves",
+      "purpose": "建立叙事关系",
+      "startFrame": 1047,
+      "endFrame": 1219,
+      "size": "medium",
+      "camera": {
+        "move": "truck-right",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "match-cut",
+        "frames": 0,
+        "reason": "让主体位置或动作形成剪辑逻辑"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s011",
+      "beatId": "06",
+      "sceneId": "stay",
+      "subjectId": "one-leaves",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 1219,
+      "endFrame": 1366,
+      "size": "close-up",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s012",
+      "beatId": "07",
+      "sceneId": "separate",
+      "subjectId": "two-lovers",
+      "purpose": "读出原文，让歌词说话",
+      "startFrame": 1366,
+      "endFrame": 1442,
+      "size": "close-up",
+      "camera": {
+        "move": "pan-left",
+        "amount": 0.38,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1993b.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "以歌词前置听觉构造J-cut"
+      },
+      "audioBridgeIn": {
+        "kind": "j-cut",
+        "reason": "声音不被画面硬切截断"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s013",
+      "beatId": "08",
+      "sceneId": "separate",
+      "subjectId": "two-lovers",
+      "purpose": "建立叙事关系",
+      "startFrame": 1442,
+      "endFrame": 1599,
+      "size": "medium",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1993b.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s014",
+      "beatId": "08",
+      "sceneId": "separate",
+      "subjectId": "two-lovers",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 1599,
+      "endFrame": 1734,
+      "size": "wide",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1993b.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s015",
+      "beatId": "09",
+      "sceneId": "night",
+      "subjectId": "two-lovers",
+      "purpose": "建立叙事关系",
+      "startFrame": 1734,
+      "endFrame": 1935,
+      "size": "close-up",
+      "camera": {
+        "move": "tilt-up",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/aber1980.jpg",
+      "transitionIn": {
+        "kind": "dip-to-black",
+        "frames": 12,
+        "reason": "让上一句声音延续进入新画面"
+      },
+      "audioBridgeIn": {
+        "kind": "l-cut",
+        "reason": "声音不被画面硬切截断"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s016",
+      "beatId": "09",
+      "sceneId": "night",
+      "subjectId": "two-lovers",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 1935,
+      "endFrame": 2107,
+      "size": "medium",
+      "camera": {
+        "move": "pan-left",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/aber1980.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s017",
+      "beatId": "10",
+      "sceneId": "wind",
+      "subjectId": "seasonal-wind",
+      "purpose": "读出原文，让歌词说话",
+      "startFrame": 2107,
+      "endFrame": 2240,
+      "size": "close-up",
+      "camera": {
+        "move": "push",
+        "amount": 0.38,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/faye.jpg",
+      "transitionIn": {
+        "kind": "dissolve",
+        "frames": 15,
+        "reason": "以歌词前置听觉构造J-cut"
+      },
+      "audioBridgeIn": {
+        "kind": "j-cut",
+        "reason": "声音不被画面硬切截断"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s018",
+      "beatId": "11",
+      "sceneId": "wind",
+      "subjectId": "seasonal-wind",
+      "purpose": "建立叙事关系",
+      "startFrame": 2240,
+      "endFrame": 2400,
+      "size": "medium",
+      "camera": {
+        "move": "truck-right",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/faye.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s019",
+      "beatId": "11",
+      "sceneId": "wind",
+      "subjectId": "seasonal-wind",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 2400,
+      "endFrame": 2537,
+      "size": "close-up",
+      "camera": {
+        "move": "pan-left",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/faye.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s020",
+      "beatId": "12",
+      "sceneId": "empty",
+      "subjectId": "loneliness",
+      "purpose": "读出原文，让歌词说话",
+      "startFrame": 2537,
+      "endFrame": 2626,
+      "size": "close-up",
+      "camera": {
+        "move": "pan-left",
+        "amount": 0.38,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/street1993.jpg",
+      "transitionIn": {
+        "kind": "wipe-left",
+        "frames": 12,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s021",
+      "beatId": "13",
+      "sceneId": "empty",
+      "subjectId": "loneliness",
+      "purpose": "建立叙事关系",
+      "startFrame": 2626,
+      "endFrame": 2767,
+      "size": "medium",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/street1993.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s022",
+      "beatId": "13",
+      "sceneId": "empty",
+      "subjectId": "loneliness",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 2767,
+      "endFrame": 2888,
+      "size": "wide",
+      "camera": {
+        "move": "pan-left",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/street1993.jpg",
+      "transitionIn": {
+        "kind": "match-cut",
+        "frames": 0,
+        "reason": "让主体位置或动作形成剪辑逻辑"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s023",
+      "beatId": "14",
+      "sceneId": "weather",
+      "subjectId": "seasonal-wind",
+      "purpose": "读出原文，让歌词说话",
+      "startFrame": 2888,
+      "endFrame": 3011,
+      "size": "close-up",
+      "camera": {
+        "move": "tilt-up",
+        "amount": 0.38,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/hktram.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "让上一句声音延续进入新画面"
+      },
+      "audioBridgeIn": {
+        "kind": "l-cut",
+        "reason": "声音不被画面硬切截断"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s024",
+      "beatId": "15",
+      "sceneId": "weather",
+      "subjectId": "seasonal-wind",
+      "purpose": "建立叙事关系",
+      "startFrame": 3011,
+      "endFrame": 3228,
+      "size": "medium",
+      "camera": {
+        "move": "pan-right",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/hktram.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s025",
+      "beatId": "15",
+      "sceneId": "weather",
+      "subjectId": "seasonal-wind",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 3228,
+      "endFrame": 3413,
+      "size": "wide",
+      "camera": {
+        "move": "pan-left",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hktram.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s026",
+      "beatId": "16",
+      "sceneId": "waiting",
+      "subjectId": "loneliness",
+      "purpose": "读出原文，让歌词说话",
+      "startFrame": 3413,
+      "endFrame": 3500,
+      "size": "close-up",
+      "camera": {
+        "move": "truck-right",
+        "amount": 0.38,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/kaitak1980.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "以歌词前置听觉构造J-cut"
+      },
+      "audioBridgeIn": {
+        "kind": "j-cut",
+        "reason": "声音不被画面硬切截断"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s027",
+      "beatId": "17",
+      "sceneId": "waiting",
+      "subjectId": "loneliness",
+      "purpose": "建立叙事关系",
+      "startFrame": 3500,
+      "endFrame": 3647,
+      "size": "close-up",
+      "camera": {
+        "move": "locked",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/kaitak1980.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s028",
+      "beatId": "17",
+      "sceneId": "waiting",
+      "subjectId": "loneliness",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 3647,
+      "endFrame": 3774,
+      "size": "insert",
+      "camera": {
+        "move": "pan-left",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/kaitak1980.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s029",
+      "beatId": "18",
+      "sceneId": "city",
+      "subjectId": "city",
+      "purpose": "建立叙事关系",
+      "startFrame": 3774,
+      "endFrame": 3981,
+      "size": "medium",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "layered",
+      "assetId": "hongkong-wind-lyrics-20261031/construction1990.jpg",
+      "transitionIn": {
+        "kind": "dissolve",
+        "frames": 15,
+        "reason": "让上一句声音延续进入新画面"
+      },
+      "audioBridgeIn": {
+        "kind": "l-cut",
+        "reason": "声音不被画面硬切截断"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s030",
+      "beatId": "18",
+      "sceneId": "city",
+      "subjectId": "city",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 3981,
+      "endFrame": 4159,
+      "size": "wide",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/construction1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "street",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s031",
+      "beatId": "19",
+      "sceneId": "ending",
+      "subjectId": "memories",
+      "purpose": "建立叙事关系",
+      "startFrame": 4159,
+      "endFrame": 4427,
+      "size": "close-up",
+      "camera": {
+        "move": "tilt-up",
+        "amount": 0.62,
+        "focalLengthMm": 55,
+        "focus": {
+          "x": 0.42,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    },
+    {
+      "id": "s032",
+      "beatId": "19",
+      "sceneId": "ending",
+      "subjectId": "memories",
+      "purpose": "从人物情绪转向环境记忆",
+      "startFrame": 4427,
+      "endFrame": 4657,
+      "size": "medium",
+      "camera": {
+        "move": "pull",
+        "amount": 0.62,
+        "focalLengthMm": 35,
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "visualVariant": "photo-only",
+      "assetId": "hongkong-wind-lyrics-20261031/hongkong1990.jpg",
+      "transitionIn": {
+        "kind": "cut",
+        "frames": 0,
+        "reason": "明确推进景别与信息"
+      },
+      "audioBridgeIn": {
+        "kind": "none",
+        "reason": "本镜头无需跨界声音"
+      },
+      "continuity": {
+        "location": "harbour",
+        "axisSide": "A",
+        "screenDirection": "right",
+        "lightKey": "night-warm",
+        "propState": "consistent"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "id": "voice-01",
+      "src": "hongkong-wind-lyrics-20261031/voice/01.mp3",
+      "startFrame": 36,
+      "durationFrames": 261,
+      "gain": 1,
+      "shotId": "s002"
+    },
+    {
+      "id": "voice-02",
+      "src": "hongkong-wind-lyrics-20261031/voice/02.mp3",
+      "startFrame": 321,
+      "durationFrames": 302,
+      "gain": 1,
+      "shotId": "s004"
+    },
+    {
+      "id": "voice-03",
+      "src": "hongkong-wind-lyrics-20261031/voice/03.mp3",
+      "startFrame": 645,
+      "durationFrames": 78,
+      "gain": 1,
+      "shotId": "s006"
+    },
+    {
+      "id": "voice-04",
+      "src": "hongkong-wind-lyrics-20261031/voice/04.mp3",
+      "startFrame": 740,
+      "durationFrames": 204,
+      "gain": 1,
+      "shotId": "s007"
+    },
+    {
+      "id": "voice-05",
+      "src": "hongkong-wind-lyrics-20261031/voice/05.mp3",
+      "startFrame": 954,
+      "durationFrames": 81,
+      "gain": 1,
+      "shotId": "s009"
+    },
+    {
+      "id": "voice-06",
+      "src": "hongkong-wind-lyrics-20261031/voice/06.mp3",
+      "startFrame": 1047,
+      "durationFrames": 283,
+      "gain": 1,
+      "shotId": "s010"
+    },
+    {
+      "id": "voice-07",
+      "src": "hongkong-wind-lyrics-20261031/voice/07.mp3",
+      "startFrame": 1356,
+      "durationFrames": 74,
+      "gain": 1,
+      "shotId": "s012"
+    },
+    {
+      "id": "voice-08",
+      "src": "hongkong-wind-lyrics-20261031/voice/08.mp3",
+      "startFrame": 1442,
+      "durationFrames": 302,
+      "gain": 1,
+      "shotId": "s013"
+    },
+    {
+      "id": "voice-09",
+      "src": "hongkong-wind-lyrics-20261031/voice/09.mp3",
+      "startFrame": 1767,
+      "durationFrames": 302,
+      "gain": 1,
+      "shotId": "s015"
+    },
+    {
+      "id": "voice-10",
+      "src": "hongkong-wind-lyrics-20261031/voice/10.mp3",
+      "startFrame": 2097,
+      "durationFrames": 129,
+      "gain": 1,
+      "shotId": "s017"
+    },
+    {
+      "id": "voice-11",
+      "src": "hongkong-wind-lyrics-20261031/voice/11.mp3",
+      "startFrame": 2240,
+      "durationFrames": 277,
+      "gain": 1,
+      "shotId": "s018"
+    },
+    {
+      "id": "voice-12",
+      "src": "hongkong-wind-lyrics-20261031/voice/12.mp3",
+      "startFrame": 2537,
+      "durationFrames": 67,
+      "gain": 1,
+      "shotId": "s020"
+    },
+    {
+      "id": "voice-13",
+      "src": "hongkong-wind-lyrics-20261031/voice/13.mp3",
+      "startFrame": 2626,
+      "durationFrames": 272,
+      "gain": 1,
+      "shotId": "s021"
+    },
+    {
+      "id": "voice-14",
+      "src": "hongkong-wind-lyrics-20261031/voice/14.mp3",
+      "startFrame": 2928,
+      "durationFrames": 66,
+      "gain": 1,
+      "shotId": "s023"
+    },
+    {
+      "id": "voice-15",
+      "src": "hongkong-wind-lyrics-20261031/voice/15.mp3",
+      "startFrame": 3011,
+      "durationFrames": 364,
+      "gain": 1,
+      "shotId": "s024"
+    },
+    {
+      "id": "voice-16",
+      "src": "hongkong-wind-lyrics-20261031/voice/16.mp3",
+      "startFrame": 3403,
+      "durationFrames": 73,
+      "gain": 1,
+      "shotId": "s026"
+    },
+    {
+      "id": "voice-17",
+      "src": "hongkong-wind-lyrics-20261031/voice/17.mp3",
+      "startFrame": 3500,
+      "durationFrames": 284,
+      "gain": 1,
+      "shotId": "s027"
+    },
+    {
+      "id": "voice-18",
+      "src": "hongkong-wind-lyrics-20261031/voice/18.mp3",
+      "startFrame": 3813,
+      "durationFrames": 324,
+      "gain": 1,
+      "shotId": "s029"
+    },
+    {
+      "id": "voice-19",
+      "src": "hongkong-wind-lyrics-20261031/voice/19.mp3",
+      "startFrame": 4159,
+      "durationFrames": 445,
+      "gain": 1,
+      "shotId": "s031"
+    }
+  ]
+}

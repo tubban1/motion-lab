@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "narrator": "unchanged 53 original files validated by SHA-256",
+  "narratorClipsPreserved": 53,
+  "recastClips": [
+    {
+      "clip": "03-01",
+      "language": "english",
+      "voice": "en-US-ChristopherNeural",
+      "durationSeconds": 2.808,
+      "ratePercent": -18
+    },
+    {
+      "clip": "05-01",
+      "language": "english",
+      "voice": "en-US-ChristopherNeural",
+      "durationSeconds": 3.432,
+      "ratePercent": -23
+    },
+    {
+      "clip": "07-01",
+      "language": "cantonese",
+      "voice": "zh-HK-HiuMaanNeural",
+      "durationSeconds": 2.832,
+      "ratePercent": -18
+    },
+    {
+      "clip": "10-01",
+      "language": "cantonese",
+      "voice": "zh-HK-HiuMaanNeural",
+      "durationSeconds": 2.664,
+      "ratePercent": -14
+    },
+    {
+      "clip": "10-02",
+      "language": "cantonese",
+      "voice": "zh-HK-HiuMaanNeural",
+      "durationSeconds": 2.904,
+      "ratePercent": -21
+    },
+    {
+      "clip": "12-01",
+      "language": "cantonese",
+      "voice": "zh-HK-HiuMaanNeural",
+      "durationSeconds": 2.736,
+      "ratePercent": -24
+    },
+    {
+      "clip": "14-01",
+      "language": "english",
+      "voice": "en-US-ChristopherNeural",
+      "durationSeconds": 2.688,
+      "ratePercent": -19
+    },
+    {
+      "clip": "16-01",
+      "language": "english",
+      "voice": "en-US-ChristopherNeural",
+      "durationSeconds": 2.904,
+      "ratePercent": -18
+    }
+  ],
+  "frameCount": 5564,
+  "fps": 24,
+  "durationSeconds": 231.833,
+  "voiceRoles": {
+    "narrator": "zh-CN-YunyangNeural",
+    "english": "en-US-ChristopherNeural",
+    "cantonese": "zh-HK-HiuMaanNeural"
+  },
+  "issues": [],
+  "subjectiveListening": "NOT_DONE",
+  "finalVideoQC": "TECHNICAL_PASS: 540x960 + 720x1280 H.264 24fps AAC 48kHz stereo 231.851s; subjective review outstanding"
+}
